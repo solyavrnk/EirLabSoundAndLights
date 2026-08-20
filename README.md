@@ -80,8 +80,8 @@ The list of possible **arguments** for this command :
 To play a WAV audio file together with a YAML light configuration:
 
 ```bash
-python.exe Player.py -y .\where_david2.yaml -s .\where_david.wav
-
+python.exe Player.py -y .\where_david2.yaml -s .\where_david.wav 
+```
 ### Reset when finished :
 
 Move to the `client` folder, then **run** the command `./jack_launcher.sh stop`
