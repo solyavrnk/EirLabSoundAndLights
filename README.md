@@ -75,7 +75,12 @@ The list of possible **arguments** for this command :
 - **-c** or **--clientname**: JACK client name
 - **-m** or **--manual**: Manual connection to output ports
 
+### Example
 
+To play a WAV audio file together with a YAML light configuration:
+
+```bash
+python.exe Player.py -y .\where_david2.yaml -s .\where_david.wav
 
 ### Reset when finished :
 
